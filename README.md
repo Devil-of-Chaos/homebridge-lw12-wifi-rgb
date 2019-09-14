@@ -1,6 +1,6 @@
 # homebridge-lw12-rgb-ledstrip
 
-Homebridge Plugin for Lacute LW-12 Wifi LED Strip Controller (https://www.amazon.de/gp/product/B00GMAS7U2)
+Homebridge Plugin for Lagute LW-12 Wifi LED Strip Controller (https://www.amazon.de/gp/product/B00GMAS7U2)
 
 # Installation
 
