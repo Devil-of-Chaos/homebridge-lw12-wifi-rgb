@@ -84,7 +84,7 @@ ControllerAccessory.prototype = {
   	var me = this;
   	if (this.debug === true) this.log('... setting powerState to ' + state);
   	this.stripe.setPowerState(state, function(success) {
-  		if (this.debug === true) me.log('... setting powerState success: ' + success);
+  		if (me.debug === true) me.log('... setting powerState success: ' + success);
   		callback(undefined, success)
   	});
   },
@@ -99,7 +99,7 @@ ControllerAccessory.prototype = {
   	var me = this;
   	if (this.debug === true) this.log('... setting brightness to ' + level);
   	this.stripe.setBrightness(level, function(success) {
-  		if (this.debug === true) me.log('... setting brightness success: ' + success);
+  		if (me.debug === true) me.log('... setting brightness success: ' + success);
   		callback(undefined, success)
   	});
   },
@@ -114,7 +114,7 @@ ControllerAccessory.prototype = {
 		var me = this;
 		if (this.debug === true) this.log('... setting hue to ' + level);
 		this.stripe.setHue(level, function(success) {
-			if (this.debug === true) me.log('... setting hue success: ' + success);
+			if (me.debug === true) me.log('... setting hue success: ' + success);
 			callback(undefined, success)
 		});
 	},
@@ -129,7 +129,7 @@ ControllerAccessory.prototype = {
 		var me = this;
 		if (this.debug === true) this.log('... setting saturation to ' + level);
 		this.stripe.setSaturation(level, function(success) {
-			if (this.debug === true) me.log('... setting saturation success: ' + success);
+			if (me.debug === true) me.log('... setting saturation success: ' + success);
 			callback(undefined, success)
 		});
 	}
